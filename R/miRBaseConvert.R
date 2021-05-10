@@ -392,7 +392,8 @@ goTo_miRBase<-function(Accessions)
         URL=paste0("http://www.mirbase.org/cgi-bin/mature.pl?mature_acc=",i)
       else
         URL=paste0("http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=",i)
-      utils::browseURL(URL)
+      if (interactive())
+        utils::browseURL(URL)
     }
   }
 }
@@ -852,7 +853,8 @@ goTo_miRNAFamily<-function(FamilyAccessions, verbose = TRUE)
     for(i in alive)
     {
       URL=paste0("http://www.mirbase.org/cgi-bin/mirna_summary.pl?fam=",i)
-      utils::browseURL(URL)
+      if (interactive())
+        utils::browseURL(URL)
     }
   }
 }

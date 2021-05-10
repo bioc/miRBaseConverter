@@ -4,8 +4,12 @@
 \alias{miRNAVersionConvert}
 \title{miRBase version convert for miRNA Names}
 \usage{
-miRNAVersionConvert(miRNANames, targetVersion = "v22", exact = TRUE,
-  verbose = TRUE)
+miRNAVersionConvert(
+  miRNANames,
+  targetVersion = "v22",
+  exact = TRUE,
+  verbose = TRUE
+)
 }
 \arguments{
 \item{miRNANames}{A character vector representing the source miRNA names needed to be convert.}

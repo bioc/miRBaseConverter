@@ -4,7 +4,9 @@
 \name{miRNATest}
 \alias{miRNATest}
 \title{Dataset: miRNA Test Dataset}
-\format{A data frame}
+\format{
+A data frame
+}
 \description{
 \itemize{
  \item Accession : miRNA Accessions in miRBase

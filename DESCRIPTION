@@ -13,6 +13,7 @@ License: GPL (>= 2)
 Suggests: BiocGenerics, RUnit, knitr, rtracklayer, utils, rmarkdown, BiocStyle
 VignetteBuilder: knitr
 biocViews: Software, miRNA
+LazyData: TRUE
 URL: https://github.com/taoshengxu/miRBaseConverter
 BugReports: https://github.com/taoshengxu/miRBaseConverter/issues
 RoxygenNote: 7.3.2

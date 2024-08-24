@@ -3,7 +3,7 @@ title: "miRBaseConverter: A comprehensive and high-efficiency tool for convertin
 author: Taosheng Xu
 date: '`r Sys.Date()`'
 output:
-  BiocStyle::html_document:
+  html_document:
     toc: true
     toc_depth: 2
 vignette: >
